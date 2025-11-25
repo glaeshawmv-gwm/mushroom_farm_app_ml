@@ -6,5 +6,4 @@ opencv-python
 pandas
 numpy
 scipy
-python-3.10.13
 flask==3.1.2
