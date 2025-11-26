@@ -1,10 +1,9 @@
-# requirements.txt for Python 3.13
-numpy==1.27.4
-pandas==2.1.1
-opencv-python==4.8.1.78
-tensorflow==2.24.0
-scikit-learn==1.3.2
-scipy==1.11.1
-matplotlib==3.8.1
-flask==3.1.2
-joblib==1.3.2
+numpy==1.27.4           # compatible with Python 3.13
+pandas==2.1.2           # latest version that works with numpy 1.27+
+opencv-python==4.8.1.78 # works fine
+tensorflow==2.20.0      # tensorflow 2.20 supports Python 3.13
+scikit-learn==1.3.2     # compatible with Python 3.13
+scipy==1.11.1           # compatible
+matplotlib==3.8.1       # optional if you use plotting
+flask==3.1.2            # works fine
+joblib==1.3.2           # dependency for sklearn
